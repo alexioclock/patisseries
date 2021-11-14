@@ -4,9 +4,13 @@ import ImageListItem from '@mui/material/ImageListItem';
 import itemData from './itemData';
 import './wovenImageList.scss';
 
+
 export default function WovenImageList() {
   return (
-    <div id="a-la-carte">
+    <div className="woven-image-content" id="a-la-carte">
+
+    <h2>À la carte </h2>
+    <p>Voir toute la carte </p>
     <ImageList className="wovenImageList" sx={{ width: 1000, height: 450}} variant="woven" cols={3} gap={8}>
       {itemData.map((item) => (
         <ImageListItem key={item.img}>

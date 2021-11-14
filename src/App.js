@@ -6,15 +6,14 @@ import WovenImageList from './WovenImageList';
 import Footer from './Footer';
 import AllDesserts from './AllDesserts';
 
+
 function App() {
   return (
     <div className="App">
-        {/* <Home />
-        <Highlights />
-        <BandInfo />
-        <WovenImageList />
-        <Footer /> */}
-        <AllDesserts />
+
+         <AllDesserts/>
+        <Footer />
+
     </div>
   );
 }
