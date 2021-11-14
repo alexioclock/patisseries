@@ -1,0 +1,37 @@
+.navigation{
+    position: fixed;
+    color: white;
+    height: 12%;
+    width: 100%;
+    background-color: rgba(2, 2, 2, 0.3);
+    font-family: 'Quicksand', sans-serif;
+    animation: navEntrance 2s ease-in-out;
+
+    @keyframes navEntrance {
+        from{
+            transform: translateY(-100px);
+            opacity: 0;
+        }
+        to{
+            transform: translateY(0);
+            opacity: 1;
+        }
+    }
+    .nav-list{
+        margin-top: 33px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        text-align: center;
+        vertical-align: middle;
+
+        .nav-item{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        text-align: center;
+        vertical-align: middle;
+        cursor: pointer;
+        }
+    }
+}

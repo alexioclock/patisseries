@@ -1,0 +1,30 @@
+.hightlights{
+    height: 50vh;
+    width: 100vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    .first-row{
+        width: 50%;
+        .citation{
+            font-size: 3em;
+            font-family: 'Explora', cursive;
+           
+        }
+    }
+
+    .second-row{
+        width: 50%;
+
+        h2{
+            margin-bottom: 50px;
+        }
+
+        p{
+            font-family: 'Quicksand', sans-serif;
+
+        }
+    }
+}
