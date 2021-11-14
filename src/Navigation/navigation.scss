@@ -24,14 +24,25 @@
         align-items: center;
         text-align: center;
         vertical-align: middle;
+        color: white;
+
 
         .nav-item{
+
         display: flex;
         justify-content: space-evenly;
         align-items: center;
         text-align: center;
         vertical-align: middle;
         cursor: pointer;
+        color: white;
+        text-decoration: none;
+
+        a{
+            text-decoration: none;
+
+        }
+
         }
     }
 }
